@@ -34,4 +34,7 @@ class Account:
             return f"You have withdrawn {amount} your balance is {self.balance}" ,self.withdrawal 
 
     def deposit_statement(self):
-        print(*self.deposits,sep="\n")    
+        print(*self.deposits,sep="\n") 
+
+    def withdraw_statement(self):
+        print(*self.withdrawal,sep="\n")
